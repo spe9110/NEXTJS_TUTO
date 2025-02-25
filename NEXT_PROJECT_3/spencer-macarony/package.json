@@ -1,0 +1,35 @@
+{
+  "name": "spencer-macarony",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@sanity/client": "^4.0.0",
+    "@sanity/image-url": "^2.0.0",
+    "@stripe/stripe-js": "^2.0.0",
+    "canvas-confetti": "^2.0.0",
+    "next": "13.4.0",
+    "next-sanity-image": "^6.1.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^3.0.0",
+    "react-icons": "^5.0.0",
+    "react-tabs": "^5.0.0",
+    "stripe": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-next": "^13.2.4",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.3",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "sass": "^1.57.0"
+  }
+}
